@@ -526,7 +526,7 @@ input[type='checkbox'] {
 .header {
 	padding-top: 7rem;
 	padding-bottom: 5.5rem;
-	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/header-background.jpg') center center no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/bg-3.avif') center center no-repeat;
 	background-size: cover;
 	text-align: center;
 }
@@ -605,6 +605,7 @@ input[type='checkbox'] {
 .basic-2 .h2-heading {
 	margin-bottom: 0.75rem;
 	text-align: center;
+	color: white;
 }
 
 .basic-2 .p-heading {
@@ -616,6 +617,10 @@ input[type='checkbox'] {
 	margin-bottom: 3rem;
 	padding: 3.5rem 1rem 2.125rem 1rem;
 	border: 1px solid #cfd7de;
+
+	p{
+		color : floralwhite ;
+	}
 }
 
 .basic-2 .fas,
@@ -623,6 +628,10 @@ input[type='checkbox'] {
 	margin-bottom: 1.75rem;
 	color: #0b36a8;
 	font-size: 3.5rem;
+}
+
+.h4d {
+	color : white ;
 }
 
 .design{
@@ -640,7 +649,7 @@ input[type='checkbox'] {
 /*******************/
 .split .area-1 {
 	height: 430px;
-	background: linear-gradient(to bottom right, rgba(25, 26, 29, 0.5), rgba(25, 26, 29, 0.5)), url('../images/details-background.jpg') center center no-repeat;
+	background: linear-gradient(to bottom right, rgba(25, 26, 29, 0.5), rgba(25, 26, 29, 0.5)), url('../images/coding.jpg') center center no-repeat;
 	background-size: cover;
 }
 
@@ -1024,6 +1033,14 @@ a:hover.back-to-top {
 
 
 	/* Services */
+
+	#services {
+		background: url(../images/bg78.jpeg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		
+	}
+
 	.basic-2 .text-box {
 		padding-right: 2.125rem;
 		padding-left: 2.125rem;
